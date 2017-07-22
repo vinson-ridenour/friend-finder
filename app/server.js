@@ -3,7 +3,7 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3000;
 
 // Test of visiting the homepage, will receive "Hello World"
 // app.get('/', function (req, res) {
